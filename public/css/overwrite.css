@@ -1,0 +1,90 @@
+.post-title {
+    margin-top: 0px;
+}
+
+.post-img img {
+    width: 200px;
+}
+
+.author-img {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+    text-align: center;
+    margin: auto auto;
+    display: block;
+}
+
+.author-name {
+    color: red;
+    font-weight: bold;
+}
+
+.author-name, .author-role, .author-place, .post-paging {
+    text-align: center;
+}
+
+.post-paging {
+    word-spacing:20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-decoration:none;
+}
+
+.post-paging a {
+    color: black;
+    padding: 8px 13px;
+    text-decoration: none;
+    -moz-border-radius: 80px; 
+    -webkit-border-radius: 80px; 
+    border-radius: 80px;
+}
+
+.post-paging a.active {
+    background-color: red;
+    color: white;
+}
+
+.post-paging a:hover:not(.active) {background-color: #ddd;}
+
+.author-blog {
+    border-left: 1px solid #e3e7e7d7;
+}
+
+.post-img, .author-blog {
+    width: 16.6%;
+}
+
+.row div {
+    margin: 20px 8px !important;
+}
+
+.post-header, .post-page {
+    padding: 0px 20px;
+}
+
+.post-page li {
+    margin: 20px 0px;
+}
+
+.post-last-date {
+    font-style:italic;
+    color: gray;
+}
+
+li:nth-child(even) {background: #F0F0F0}
+li:nth-child(odd) {background: #FFF}
+
+li {
+    border: 1px solid #e3e7e7;
+    box-shadow: 1px 2px #e3e7e7;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px !important;
+}
